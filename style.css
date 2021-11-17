@@ -1,0 +1,11 @@
+img {
+    width: 500px;
+    position: absolute;
+    top: 350px;
+    left: 960px;
+opacity: 0.5;
+}
+
+table {
+    position: relative;
+}
