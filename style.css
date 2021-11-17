@@ -1,4 +1,4 @@
-img {
+.logo {
     width: 500px;
     position: absolute;
     top: 350px;
@@ -9,3 +9,26 @@ opacity: 0.5;
 table {
     position: relative;
 }
+
+.navbar {
+    height: 30px;
+    background : linear-gradient(to right, rgb(65, 105, 225), rgb(248, 101, 3), royalblue);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.fixed-bottom {
+    height: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 5px;
+    
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: royalblue;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
