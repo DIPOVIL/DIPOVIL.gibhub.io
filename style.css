@@ -46,10 +46,12 @@ h1 {
 @keyframes nav {
     from {
         background : linear-gradient(to right, rgb(65, 105, 225), rgb(248, 101, 3), royalblue);
+
     }
     
     to {
         background : linear-gradient(to right,rgb(248, 101, 3),  rgb(65, 105, 225), rgb(248, 101, 3));
+
     }
  
 }
@@ -57,10 +59,14 @@ h1 {
 @keyframes logo {
     from {
         transform: scale(0.5) ;
+        transform: rotateY(180deg);
+
     }
 
     to {
         transform: scale(1) ;
+        transform: translatex(1)
+
     }
 
     
